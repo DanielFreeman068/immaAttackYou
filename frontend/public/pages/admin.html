@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shtuff</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <nav class="navbar">   
+        <ul>
+            <li><a class="navoptions" href="#">Home</a></li>
+            <li><a class="navoptions2" href="#">Input</a></li>
+            <li><a class="navoptions" href="#">History</a></li>
+        </ul>
+    </nav>
+    <div class="chart">
+        <canvas id="lineChart" height="50"></canvas>
+    </div>
+    <div class="result1">
+        <div class="pie-chart-container">
+            <canvas
+            id="pie-chart-1"
+            class="animate-pie-chart"
+            width="200"
+            height="200"
+            ></canvas>
+            <ul id="pie-chart-1-legend"></ul>
+        </div>
+    </div>
+    <div class="result2">
+        <div class="pie-chart-container">
+            <canvas
+            id="pie-chart-2"
+            class="animate-pie-chart"
+            width="200"
+            height="200"
+            ></canvas>
+            <ul id="pie-chart-2-legend"></ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="./js/admin.js"></script>
+</body>
+</html>
