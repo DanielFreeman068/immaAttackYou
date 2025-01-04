@@ -13,6 +13,8 @@ var allData = {
     }]
 };
 
+
+
 // Simulating fetching JSON data for septemberAmounts
 var jsonData = `{
     "septemberAmounts": [
@@ -106,7 +108,7 @@ function getPreviousEarnings(currentLabel) {
     return 0;
 }
 
-filterData('last_1_month');
+filterData('last_12_months');
 
 
 
